@@ -1,0 +1,60 @@
+name: tugas_mobile_programing
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  # Core Flutter packages
+  cupertino_icons: ^1.0.6
+  fluttertoast: ^8.2.4
+  # UI Components
+  font_awesome_flutter: ^10.7.0
+
+  # Maps & Location
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  location: ^5.0.3
+  geolocator: ^9.0.2
+
+  # Media & Camera
+  image_picker: ^1.0.7
+  image_picker_for_web: ^3.0.0
+
+  # Authentication
+  local_auth: ^2.1.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # Communication
+  url_launcher: ^6.2.5
+  flutter_sms: ^2.3.1
+
+  # Data Visualization
+  fl_chart: ^0.66.0  
+  # Web-specific
+  web: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
